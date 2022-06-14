@@ -1,0 +1,142 @@
+"Games"
+{
+	"left4dead2"
+	{
+		"Addresses"
+		{
+			"fileSystem"
+			{
+				"linux"
+				{
+					"signature"	"CDirector::OnServerShutdown"
+					"read"		"350"
+				}
+				"read"	"0"
+			}
+		}
+
+		"Signatures"
+		{
+			"KeyValues::GetName"
+			{
+				"library"	"server"
+				"linux"		"@_ZNK9KeyValues7GetNameEv"
+			}
+
+			"KeyValues::SetName"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues7SetNameEPKc"
+			}
+
+			"KeyValues::GetDataType"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues11GetDataTypeEPKc"
+			}
+
+			"KeyValues::GetString"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues9GetStringEPKcS1_"
+			}
+
+			"KeyValues::SetString"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues9SetStringEPKcS1_"
+			}
+
+			"KeyValues::SetStringValue"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues14SetStringValueEPKc"
+			}
+
+			"KeyValues::GetInt"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues6GetIntEPKci"
+			}
+
+			"KeyValues::SetInt"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues6SetIntEPKci"
+			}
+
+			"KeyValues::GetFloat"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues8GetFloatEPKcf"
+			}
+
+			"KeyValues::SetFloat"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues8SetFloatEPKcf"
+			}
+
+			"KeyValues::GetPtr"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues6GetPtrEPKcPv"
+			}
+
+			"KeyValues::FindKey"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues7FindKeyEPKcb"
+			}
+
+			"KeyValues::GetFirstSubKey"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues14GetFirstSubKeyEv"
+			}
+
+			"KeyValues::GetNextKey"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues10GetNextKeyEv"
+			}
+
+			"KeyValues::GetFirstTrueSubKey"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues18GetFirstTrueSubKeyEv"
+			}
+
+			"KeyValues::GetNextTrueSubKey"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues17GetNextTrueSubKeyEv"
+			}
+
+			"KeyValues::GetFirstValue"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues13GetFirstValueEv"
+			}
+
+			"KeyValues::GetNextValue"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues12GetNextValueEv"
+			}
+
+			"KeyValues::SaveToFile"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9KeyValues10SaveToFileEP15IBaseFileSystemPKcS3_"
+			}
+
+			"CDirector::OnServerShutdown"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CDirector16OnServerShutdownEv"
+			}
+		}
+	}
+}
+

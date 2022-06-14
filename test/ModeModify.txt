@@ -1,0 +1,26 @@
+"coop"
+{
+	"base"		"coop"
+	"maxplayers"		"4"
+	"x360ctx"		"0"
+	"x360matchrule"		"0"
+	"x360presence"		"5"
+	"x360presence:"
+	{
+		"network:offline"		"11"
+		"play:commentary"		"3"
+		"play:credits"		"2"
+	}
+	"hasdifficulty"		"1"
+	"addon"		"0"
+	"Missions"
+	{
+	}
+	"vanilla"		"0"
+	"NewStringKey"		"StringValue_modify"
+	"NewSub_modify"
+	{
+		"NewIntKey_modify"		"111"
+		"NewFloatKey"		"1.123000"
+	}
+}
