@@ -93,7 +93,7 @@ Action Cmd_Test3_PrintTrueValue(int client, int args)
 
 	char sName[128], sValue[256];
 	DataType type;
-	SourceKeyValues sub = kvMissions.FindKey("L4D2C1/modes/versus/1"); // Allow recursive lookup using '/'.
+	SourceKeyValues sub = kvMissions.FindKey("L4D2C1/modes/versus/1");
 
 	if (!sub.IsNull())
 	{
@@ -132,7 +132,6 @@ Action Cmd_Test4_OtherTest(int client, int args)
 	char sValue[128];
 	SourceKeyValues kv = GetGameModeInfo("coop");
 
-	// Allow recursive lookup using '/'.
 	PrintToServer("pAdr = 0x%x", kv.GetPtr("Missions/L4D2C2"));
 	PrintToServer("iValue = %i", kv.GetInt("x360presence:/play:credits"));
 
