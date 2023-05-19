@@ -180,8 +180,8 @@
 			{
 				"library"	"server"
 				"linux"		"@_ZN9CDirector16OnServerShutdownEv"
-				"windows"	"\x55\x8B\xEC\x51\x53\x56\x8B\xF1\x8B\x8E\x74\x05\x00\x00"
-				/* 55 8B EC 51 53 56 8B F1 8B 8E 74 05 00 00 */
+				"windows"	"\x55\x8B\xEC\x51\x53\x56\x8B\xF1\x8B\x8E\x34\x06\x00\x00"
+				// 55 8B EC 51 53 56 8B F1 8B 8E 34 06 00 00
 			}
 		}
 	}
