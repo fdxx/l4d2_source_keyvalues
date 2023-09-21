@@ -1,12 +1,18 @@
 #pragma semicolon 1
 #pragma newdecls required
 
-#define VERSION "0.1"
+#define VERSION "0.2"
 
 #include <sourcemod>
 #include <sdktools>
 
 Handle
+	g_hSDKOperatorNew,
+	g_hSDKConstructor,
+	g_hSDKDeleteThis,
+	g_hSDKUsesEscapeSequences,
+	g_hSDKLoadFromFile,
+	g_hSDKLoadFromFile_PathID,
 	g_hSDKGetName,
 	g_hSDKSetName,
 	g_hSDKGetDataType,
@@ -25,15 +31,24 @@ Handle
 	g_hSDKGetNextTrueSubKey,
 	g_hSDKGetFirstValue,
 	g_hSDKGetNextValue,
-	g_hSDKSaveToFile;
+	g_hSDKSaveToFile,
+	g_hSDKSaveToFile_PathID;
 
 Address
 	g_pFileSystem;
+
+int 
+	g_iKeyValuesSize;
 
 public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
 {
 	if (GetEngineVersion() != Engine_Left4Dead2) 
 		LogError("Plugin only supports L4D2");
+
+	CreateNative("SourceKeyValues.SourceKeyValues", Native_Create);
+	CreateNative("SourceKeyValues.deleteThis", Native_DeleteThis);
+	CreateNative("SourceKeyValues.UsesEscapeSequences", Native_UsesEscapeSequences);
+	CreateNative("SourceKeyValues.LoadFromFile", Native_LoadFromFile);
 
 	CreateNative("SourceKeyValues.IsNull", Native_IsNull);
 	CreateNative("SourceKeyValues.GetName", Native_GetName);
@@ -74,6 +89,59 @@ public void OnPluginStart()
 {
 	Init();
 	CreateConVar("l4d2_source_keyvalues_version", VERSION, "version", FCVAR_NONE | FCVAR_DONTRECORD);
+}
+
+// public native SourceKeyValues(const char[] name);
+any Native_Create(Handle plugin, int numParams)
+{
+	int maxlength;
+	GetNativeStringLength(1, maxlength);
+	maxlength += 1;
+	char[] setName = new char[maxlength];
+	GetNativeString(1, setName, maxlength);
+	
+	// void* KeyValues::operator new( size_t iAllocSize )
+	Address pkv = SDKCall(g_hSDKOperatorNew, g_iKeyValuesSize);
+	
+	// void KeyValues::KeyValues( const char *setName )
+	SDKCall(g_hSDKConstructor, pkv, setName);
+	return pkv;
+}
+
+// public native void deleteThis();
+any Native_DeleteThis(Handle plugin, int numParams)
+{
+	SDKCall(g_hSDKDeleteThis, GetNativeCell(1));
+	return 0;
+}
+
+// public native void UsesEscapeSequences(bool state);
+any Native_UsesEscapeSequences(Handle plugin, int numParams)
+{
+	SDKCall(g_hSDKUsesEscapeSequences, GetNativeCell(1), GetNativeCell(2));
+	return 0;
+}
+
+// public native bool LoadFromFile(const char[] file, const char[] pathID = NULL_STRING);
+any Native_LoadFromFile(Handle plugin, int numParams)
+{
+	int fileLen;
+	GetNativeStringLength(2, fileLen);
+	fileLen += 1;
+	char[] file = new char[fileLen];
+	GetNativeString(2, file, fileLen);
+
+	// bool KeyValues::LoadFromFile( IBaseFileSystem *filesystem, const char *resourceName, const char *pathID);
+	if (IsNativeParamNullString(3))
+		return SDKCall(g_hSDKLoadFromFile, GetNativeCell(1), g_pFileSystem, file, 0);
+	
+	int pathidLen;
+	GetNativeStringLength(3, pathidLen);
+	pathidLen += 1;
+	char[] pathID = new char[pathidLen];
+	GetNativeString(3, pathID, pathidLen);
+	
+	return SDKCall(g_hSDKLoadFromFile_PathID, GetNativeCell(1), g_pFileSystem, file, pathID);
 }
 
 // public native bool IsNull();
@@ -311,16 +379,25 @@ any Native_GetNextValue(Handle plugin, int numParams)
 	return 0;
 }
 
-// public native bool SaveToFile(const char[] file);
+// public native bool SaveToFile(const char[] file, const char[] pathID = NULL_STRING);
 any Native_SaveToFile(Handle plugin, int numParams)
 {
-	int length;
-	GetNativeStringLength(2, length);
-	length += 1;
-	char[] file = new char[length];
-	GetNativeString(2, file, length);
+	int fileLen;
+	GetNativeStringLength(2, fileLen);
+	fileLen += 1;
+	char[] file = new char[fileLen];
+	GetNativeString(2, file, fileLen);
 
-	return SDKCall(g_hSDKSaveToFile, GetNativeCell(1), g_pFileSystem, file, NULL_STRING);
+	if (IsNativeParamNullString(3))
+		return SDKCall(g_hSDKSaveToFile, GetNativeCell(1), g_pFileSystem, file, 0);
+	
+	int pathidLen;
+	GetNativeStringLength(3, pathidLen);
+	pathidLen += 1;
+	char[] pathID = new char[pathidLen];
+	GetNativeString(3, pathID, pathidLen);
+	
+	return SDKCall(g_hSDKSaveToFile_PathID, GetNativeCell(1), g_pFileSystem, file, pathID);
 }
 
 void Init()
@@ -334,13 +411,83 @@ void Init()
 
 	// ------- address ------- 
 	strcopy(sBuffer, sizeof(sBuffer), "fileSystem");
-	Address fileSystem = hGameData.GetAddress(sBuffer);
-	if (fileSystem == Address_Null)
-		SetFailState("Failed to get address: \"%s\"", sBuffer);
-	g_pFileSystem = fileSystem + view_as<Address>(4);
-
+	g_pFileSystem = hGameData.GetAddress(sBuffer);
+	if (g_pFileSystem == Address_Null)
+		SetFailState("Failed to GetAddress: \"%s\"", sBuffer);
+	
+	// sizof(KeyValues)
+	strcopy(sBuffer, sizeof(sBuffer), "KeyValuesSize");
+	g_iKeyValuesSize = hGameData.GetOffset(sBuffer);
+	if (g_iKeyValuesSize == -1)
+		SetFailState("Failed to GetOffset: \"%s\"", sBuffer);
 
 	// ------- Prep SDKCall ------- 
+	// void* KeyValues::operator new( size_t iAllocSize )
+	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::operator_new");
+	StartPrepSDKCall(SDKCall_Static);
+	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
+		SetFailState("Failed to find signature: \"%s\"", sBuffer);
+	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
+	PrepSDKCall_SetReturnInfo(SDKType_PlainOldData, SDKPass_Plain);
+	g_hSDKOperatorNew = EndPrepSDKCall();
+	if (g_hSDKOperatorNew == null)
+		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
+
+	// void KeyValues::KeyValues( const char *setName )
+	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::KeyValues");
+	StartPrepSDKCall(SDKCall_Raw);
+	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
+		SetFailState("Failed to find signature: \"%s\"", sBuffer);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	g_hSDKConstructor = EndPrepSDKCall();
+	if (g_hSDKConstructor == null)
+		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
+
+	// void KeyValues::deleteThis();
+	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::deleteThis");
+	StartPrepSDKCall(SDKCall_Raw);
+	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
+		SetFailState("Failed to find signature: \"%s\"", sBuffer);
+	g_hSDKDeleteThis = EndPrepSDKCall();
+	if (g_hSDKDeleteThis == null)
+		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
+
+	// void KeyValues::UsesEscapeSequences(bool state); // default false
+	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::UsesEscapeSequences");
+	StartPrepSDKCall(SDKCall_Raw);
+	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
+		SetFailState("Failed to find signature: \"%s\"", sBuffer);
+	PrepSDKCall_AddParameter(SDKType_Bool, SDKPass_Plain);
+	g_hSDKUsesEscapeSequences = EndPrepSDKCall();
+	if (g_hSDKUsesEscapeSequences == null)
+		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
+
+	// bool KeyValues::LoadFromFile( IBaseFileSystem *filesystem, const char *resourceName, const char *pathID);
+	
+	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::LoadFromFile");
+	StartPrepSDKCall(SDKCall_Raw);
+	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
+		SetFailState("Failed to find signature: \"%s\"", sBuffer);
+	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain); // Why doesn't NULL_STRING work?
+	PrepSDKCall_SetReturnInfo(SDKType_Bool, SDKPass_Plain);
+	g_hSDKLoadFromFile = EndPrepSDKCall();
+	if (g_hSDKLoadFromFile == null)
+		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
+
+	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::LoadFromFile");
+	StartPrepSDKCall(SDKCall_Raw);
+	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
+		SetFailState("Failed to find signature: \"%s\"", sBuffer);
+	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_SetReturnInfo(SDKType_Bool, SDKPass_Plain);
+	g_hSDKLoadFromFile_PathID = EndPrepSDKCall();
+	if (g_hSDKLoadFromFile_PathID == null)
+		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
+
 	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::GetName");
 	StartPrepSDKCall(SDKCall_Raw);
 	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
@@ -523,10 +670,22 @@ void Init()
 		SetFailState("Failed to find signature: \"%s\"", sBuffer);
 	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
 	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
-	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
 	PrepSDKCall_SetReturnInfo(SDKType_Bool, SDKPass_Plain);
 	g_hSDKSaveToFile = EndPrepSDKCall();
 	if (g_hSDKSaveToFile == null)
+		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
+
+	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::SaveToFile");
+	StartPrepSDKCall(SDKCall_Raw);
+	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
+		SetFailState("Failed to find signature: \"%s\"", sBuffer);
+	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_SetReturnInfo(SDKType_Bool, SDKPass_Plain);
+	g_hSDKSaveToFile_PathID = EndPrepSDKCall();
+	if (g_hSDKSaveToFile_PathID == null)
 		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
 
 	delete hGameData;

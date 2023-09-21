@@ -20,6 +20,51 @@ public void OnPluginStart()
 	RegAdminCmd("sm_skv_test2", Cmd_Test2_PrintTrueSubKeyName, ADMFLAG_ROOT);
 	RegAdminCmd("sm_skv_test3", Cmd_Test3_PrintTrueValue, ADMFLAG_ROOT);
 	RegAdminCmd("sm_skv_test4", Cmd_Test4_OtherTest, ADMFLAG_ROOT);
+	RegAdminCmd("sm_skv_test5", Cmd_Test5, ADMFLAG_ROOT);
+}
+
+Action Cmd_Test5(int client, int args)
+{
+	
+	SourceKeyValues kv = SourceKeyValues("test5");
+	kv.SetString("key1", "value1");
+	kv.SetString("key2", "value2");
+	kv.SetString("key3", "val\\nue3");
+
+	char buffer[256];
+	kv.GetString("key3", buffer, sizeof(buffer));
+	PrintToServer("key3Value = %s", buffer);
+
+	BuildPath(Path_SM, buffer, sizeof(buffer), "data/test5.txt");
+	if (kv.SaveToFile(buffer))
+		PrintToServer("Save to file succeeded: %s", buffer);
+
+	kv.deleteThis();
+
+	
+	kv = SourceKeyValues("");
+	kv.UsesEscapeSequences(true);
+	if (kv.LoadFromFile(buffer))
+	{
+		kv.GetString("key3", buffer, sizeof(buffer));
+		PrintToServer("key3Value = %s", buffer); // \n test
+	}
+
+	kv.deleteThis();
+
+
+	kv = SourceKeyValues("");
+	if (kv.LoadFromFile("scripts/melee/melee_manifest.txt", "GAME")) // valve path
+	{
+		PrintAllKeyValues(kv);
+
+		BuildPath(Path_SM, buffer, sizeof(buffer), "data/melee_manifest.txt");
+		if (kv.SaveToFile(buffer))
+			PrintToServer("Save to file succeeded: %s", buffer);
+	}
+
+	kv.deleteThis();
+	return Plugin_Handled;
 }
 
 Action Cmd_Test1_PrintAllKeyValues(int client, int args)

@@ -19,6 +19,11 @@ enum DataType
 // See link for instructions: https://github.com/alliedmodders/hl2sdk/blob/l4d2/public/tier1/KeyValues.h
 methodmap SourceKeyValues
 {
+	public native SourceKeyValues(const char[] name); // Need call deleteThis().
+	public native void deleteThis();
+	public native void UsesEscapeSequences(bool state);
+	public native bool LoadFromFile(const char[] file, const char[] pathID = NULL_STRING);
+
 	public native bool IsNull();
 	public native void GetName(char[] name, int maxlength);
 	public native void SetName(const char[] setName);
@@ -38,7 +43,7 @@ methodmap SourceKeyValues
 	public native SourceKeyValues GetNextTrueSubKey();
 	public native SourceKeyValues GetFirstValue();
 	public native SourceKeyValues GetNextValue();
-	public native bool SaveToFile(const char[] file);
+	public native bool SaveToFile(const char[] file, const char[] pathID = NULL_STRING);
 }
 
 public SharedPlugin __pl_l4d2_source_keyvalues = 
@@ -55,6 +60,10 @@ public SharedPlugin __pl_l4d2_source_keyvalues =
 #if !defined REQUIRE_PLUGIN
 public void __pl_l4d2_source_keyvalues_SetNTVOptional()
 {
+	MarkNativeAsOptional("SourceKeyValues.SourceKeyValues");
+	MarkNativeAsOptional("SourceKeyValues.deleteThis");
+	MarkNativeAsOptional("SourceKeyValues.UsesEscapeSequences");
+	MarkNativeAsOptional("SourceKeyValues.LoadFromFile");
 	MarkNativeAsOptional("SourceKeyValues.IsNull");
 	MarkNativeAsOptional("SourceKeyValues.GetName");
 	MarkNativeAsOptional("SourceKeyValues.SetName");
