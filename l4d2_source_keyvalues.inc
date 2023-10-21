@@ -3,7 +3,7 @@
 #endif
 #define _l4d2_source_keyvalues_included
 
-enum DataType
+enum /* DataType */
 {
 	TYPE_NONE = 0,
 	TYPE_STRING,
@@ -16,6 +16,8 @@ enum DataType
 	TYPE_NUMTYPES,
 }
 
+#define INVALID_KEY_SYMBOL (-1)
+
 // See link for instructions: https://github.com/alliedmodders/hl2sdk/blob/l4d2/public/tier1/KeyValues.h
 methodmap SourceKeyValues
 {
@@ -27,7 +29,8 @@ methodmap SourceKeyValues
 	public native bool IsNull();
 	public native void GetName(char[] name, int maxlength);
 	public native void SetName(const char[] setName);
-	public native DataType GetDataType(const char[] key);
+	public native int GetNameSymbol();
+	public native any GetDataType(const char[] key);
 	public native void GetString(const char[] key, char[] value, int maxlength, const char[] defvalue = "");
 	public native void SetString(const char[] key, const char[] value);
 	public native void SetStringValue(const char[] value);
@@ -37,6 +40,7 @@ methodmap SourceKeyValues
 	public native void SetFloat(const char[] key, float value);
 	public native Address GetPtr(const char[] key, Address defvalue = Address_Null);
 	public native SourceKeyValues FindKey(const char[] key, bool bCreate = false);
+	public native SourceKeyValues FindKeyFromSymbol(int keySymbol);
 	public native SourceKeyValues GetFirstSubKey();
 	public native SourceKeyValues GetNextKey();
 	public native SourceKeyValues GetFirstTrueSubKey();
@@ -67,6 +71,7 @@ public void __pl_l4d2_source_keyvalues_SetNTVOptional()
 	MarkNativeAsOptional("SourceKeyValues.IsNull");
 	MarkNativeAsOptional("SourceKeyValues.GetName");
 	MarkNativeAsOptional("SourceKeyValues.SetName");
+	MarkNativeAsOptional("SourceKeyValues.GetNameSymbol");
 	MarkNativeAsOptional("SourceKeyValues.GetDataType");
 	MarkNativeAsOptional("SourceKeyValues.GetString");
 	MarkNativeAsOptional("SourceKeyValues.SetString");
@@ -77,6 +82,7 @@ public void __pl_l4d2_source_keyvalues_SetNTVOptional()
 	MarkNativeAsOptional("SourceKeyValues.SetFloat");
 	MarkNativeAsOptional("SourceKeyValues.GetPtr");
 	MarkNativeAsOptional("SourceKeyValues.FindKey");
+	MarkNativeAsOptional("SourceKeyValues.FindKeyFromSymbol");
 	MarkNativeAsOptional("SourceKeyValues.GetFirstSubKey");
 	MarkNativeAsOptional("SourceKeyValues.GetNextKey");
 	MarkNativeAsOptional("SourceKeyValues.GetFirstTrueSubKey");

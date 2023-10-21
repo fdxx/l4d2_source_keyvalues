@@ -86,6 +86,13 @@
 				/* 55 8B EC 56 8B F1 FF 15 ? ? ? ? 8B 4D 08 */
 			}
 
+			"KeyValues::GetNameSymbol"
+			{
+				"library"	"server"
+				"linux"		"@_ZNK9KeyValues13GetNameSymbolEv"
+				"windows"	"\x85\xC9\x74\x2A\x8B\x01\xC3"
+			}
+
 			"KeyValues::GetDataType"
 			{
 				"library"	"server"
@@ -164,6 +171,13 @@
 				"linux"		"@_ZN9KeyValues7FindKeyEPKcb"
 				"windows"	"\x55\x8B\xEC\x81\xEC\x10\x01\x00\x00\xA1\x2A\x2A\x2A\x2A\x33\xC5\x89\x45\xFC\x8B\xC1"
 				/* 55 8B EC 81 EC 10 01 00 00 A1 ? ? ? ? 33 C5 89 45 FC 8B C1 */
+			}
+
+			"KeyValues::FindKeyFromSymbol"
+			{
+				"library"	"server"
+				"linux"		"@_ZNK9KeyValues7FindKeyEi"
+				"windows"	"\x55\x8B\xEC\x85\xC9"
 			}
 
 			"KeyValues::GetFirstSubKey"

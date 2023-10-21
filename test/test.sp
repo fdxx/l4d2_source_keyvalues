@@ -35,6 +35,10 @@ Action Cmd_Test5(int client, int args)
 	kv.GetString("key3", buffer, sizeof(buffer));
 	PrintToServer("key3Value = %s", buffer);
 
+	SourceKeyValues key2 = kv.FindKey("key2");
+	int keySymbol = key2.GetNameSymbol();
+	PrintToServer("key2 keySymbol = %i", keySymbol);
+
 	BuildPath(Path_SM, buffer, sizeof(buffer), "data/test5.txt");
 	if (kv.SaveToFile(buffer))
 		PrintToServer("Save to file succeeded: %s", buffer);
@@ -48,6 +52,12 @@ Action Cmd_Test5(int client, int args)
 	{
 		kv.GetString("key3", buffer, sizeof(buffer));
 		PrintToServer("key3Value = %s", buffer); // \n test
+
+		kv.SetString("key4/key4sub", "key4Value");
+		
+		key2 = kv.FindKeyFromSymbol(keySymbol); 
+		key2.GetString(NULL_STRING, buffer, sizeof(buffer));
+		PrintToServer("key2Value = %s", buffer);
 	}
 
 	kv.deleteThis();
@@ -81,7 +91,7 @@ Action Cmd_Test1_PrintAllKeyValues(int client, int args)
 void PrintAllKeyValues(SourceKeyValues root)
 {
 	char sName[128], sValue[256];
-	DataType type;
+	int type;
 
 	for (SourceKeyValues kv = root.GetFirstSubKey(); !kv.IsNull(); kv = kv.GetNextKey())
 	{
@@ -137,7 +147,7 @@ Action Cmd_Test3_PrintTrueValue(int client, int args)
 	SourceKeyValues kvMissions = GetAllMissions();
 
 	char sName[128], sValue[256];
-	DataType type;
+	int type;
 	SourceKeyValues sub = kvMissions.FindKey("L4D2C1/modes/versus/1");
 
 	if (!sub.IsNull())

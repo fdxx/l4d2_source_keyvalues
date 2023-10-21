@@ -1,7 +1,7 @@
 #pragma semicolon 1
 #pragma newdecls required
 
-#define VERSION "0.2"
+#define VERSION "0.3"
 
 #include <sourcemod>
 #include <sdktools>
@@ -15,6 +15,7 @@ Handle
 	g_hSDKLoadFromFile_PathID,
 	g_hSDKGetName,
 	g_hSDKSetName,
+	g_hSDKGetNameSymbol,
 	g_hSDKGetDataType,
 	g_hSDKGetString,
 	g_hSDKSetString,
@@ -25,6 +26,7 @@ Handle
 	g_hSDKSetFloat,
 	g_hSDKGetPtr,
 	g_hSDKFindKey,
+	g_hSDKFindKeyFromSymbol,
 	g_hSDKGetFirstSubKey,
 	g_hSDKGetNextKey,
 	g_hSDKGetFirstTrueSubKey,
@@ -53,6 +55,7 @@ public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max
 	CreateNative("SourceKeyValues.IsNull", Native_IsNull);
 	CreateNative("SourceKeyValues.GetName", Native_GetName);
 	CreateNative("SourceKeyValues.SetName", Native_SetName);
+	CreateNative("SourceKeyValues.GetNameSymbol", Native_GetNameSymbol);
 	CreateNative("SourceKeyValues.GetDataType", Native_GetDataType);
 	CreateNative("SourceKeyValues.GetString", Native_GetString);
 	CreateNative("SourceKeyValues.SetString", Native_SetString);
@@ -63,6 +66,7 @@ public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max
 	CreateNative("SourceKeyValues.SetFloat", Native_SetFloat);
 	CreateNative("SourceKeyValues.GetPtr", Native_GetPtr);
 	CreateNative("SourceKeyValues.FindKey", Native_FindKey);
+	CreateNative("SourceKeyValues.FindKeyFromSymbol", Native_FindKeyFromSymbol);
 	CreateNative("SourceKeyValues.GetFirstSubKey", Native_GetFirstSubKey);
 	CreateNative("SourceKeyValues.GetNextKey", Native_GetNextKey);
 	CreateNative("SourceKeyValues.GetFirstTrueSubKey", Native_GetFirstTrueSubKey);
@@ -111,7 +115,8 @@ any Native_Create(Handle plugin, int numParams)
 // public native void deleteThis();
 any Native_DeleteThis(Handle plugin, int numParams)
 {
-	SDKCall(g_hSDKDeleteThis, GetNativeCell(1));
+	if (GetNativeCell(1))
+		SDKCall(g_hSDKDeleteThis, GetNativeCell(1));
 	return 0;
 }
 
@@ -170,6 +175,13 @@ any Native_SetName(Handle plugin, int numParams)
 	GetNativeString(2, setName, maxlength);
 	SDKCall(g_hSDKSetName, GetNativeCell(1), setName);
 	return 0;
+}
+
+any Native_GetNameSymbol(Handle plugin, int numParams)
+{
+	if (!GetNativeCell(1))
+		return -1;
+	return SDKCall(g_hSDKGetNameSymbol, GetNativeCell(1));
 }
 
 // public native DataType GetDataType(const char[] key);
@@ -328,6 +340,13 @@ any Native_FindKey(Handle plugin, int numParams)
 
 	if (GetNativeCell(1))
 		return SDKCall(g_hSDKFindKey, GetNativeCell(1), key, GetNativeCell(3));
+	return 0;
+}
+
+any Native_FindKeyFromSymbol(Handle plugin, int numParams)
+{
+	if (GetNativeCell(1))
+		return SDKCall(g_hSDKFindKeyFromSymbol, GetNativeCell(1), GetNativeCell(2));
 	return 0;
 }
 
@@ -506,6 +525,15 @@ void Init()
 	if (g_hSDKSetName == null)
 		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
 
+	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::GetNameSymbol");
+	StartPrepSDKCall(SDKCall_Raw);
+	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
+		SetFailState("Failed to find signature: \"%s\"", sBuffer);
+	PrepSDKCall_SetReturnInfo(SDKType_PlainOldData, SDKPass_Plain);
+	g_hSDKGetNameSymbol = EndPrepSDKCall();
+	if (g_hSDKGetNameSymbol == null)
+		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
+
 	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::GetDataType");
 	StartPrepSDKCall(SDKCall_Raw);
 	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
@@ -608,6 +636,16 @@ void Init()
 	PrepSDKCall_SetReturnInfo(SDKType_PlainOldData, SDKPass_Plain);
 	g_hSDKFindKey = EndPrepSDKCall();
 	if (g_hSDKFindKey == null)
+		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
+
+	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::FindKeyFromSymbol");
+	StartPrepSDKCall(SDKCall_Raw);
+	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
+		SetFailState("Failed to find signature: \"%s\"", sBuffer);
+	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
+	PrepSDKCall_SetReturnInfo(SDKType_PlainOldData, SDKPass_Plain);
+	g_hSDKFindKeyFromSymbol = EndPrepSDKCall();
+	if (g_hSDKFindKeyFromSymbol == null)
 		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
 
 	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::GetFirstSubKey");
