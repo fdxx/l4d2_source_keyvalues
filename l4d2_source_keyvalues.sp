@@ -1,7 +1,7 @@
 #pragma semicolon 1
 #pragma newdecls required
 
-#define VERSION "0.3"
+#define VERSION "0.4"
 
 #include <sourcemod>
 #include <sdktools>
@@ -108,7 +108,7 @@ any Native_Create(Handle plugin, int numParams)
 	Address pkv = SDKCall(g_hSDKOperatorNew, g_iKeyValuesSize);
 	
 	// void KeyValues::KeyValues( const char *setName )
-	SDKCall(g_hSDKConstructor, pkv, setName);
+	SDKCall(g_hSDKConstructor, pkv, setName, 0, false);
 	return pkv;
 }
 
@@ -452,12 +452,14 @@ void Init()
 	if (g_hSDKOperatorNew == null)
 		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
 
-	// void KeyValues::KeyValues( const char *setName )
+	// KeyValues::KeyValues(char const* setName, IKeyValuesSystem *, bool)
 	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::KeyValues");
 	StartPrepSDKCall(SDKCall_Raw);
 	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
 		SetFailState("Failed to find signature: \"%s\"", sBuffer);
 	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
+	PrepSDKCall_AddParameter(SDKType_Bool, SDKPass_Plain);
 	g_hSDKConstructor = EndPrepSDKCall();
 	if (g_hSDKConstructor == null)
 		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
