@@ -79,7 +79,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -203,7 +204,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -513,7 +515,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -555,7 +558,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -597,7 +601,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -639,7 +644,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -855,7 +861,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -897,7 +904,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -939,7 +947,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -981,7 +990,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -1119,7 +1129,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -1161,7 +1172,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -1262,7 +1274,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -1304,7 +1317,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -1405,7 +1419,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -1447,7 +1462,8 @@
 					"VersusCompletionScore"		"500"
 					"versus_boss_spawning"
 					{
-						"spawn_pos_min"		"0.600000"
+						"spawn_pos_min"		"0.790000"
+						"spawn_pos_max"		"0.900000"
 						"tank_chance"		"0.300000"
 						"witch_chance"		"0.300000"
 					}
@@ -1595,7 +1611,7 @@
 		"Image"		"maps/c2"
 		"OuttroImage"		"vgui/outroTitle_DarkCarnival"
 		"x360ctx"		"4"
-		"meleeweapons"		"electric_guitar;katana;fireaxe;crowbar;baseball_bat;knife"
+		"meleeweapons"		"fireaxe;frying_pan;machete;baseball_bat;crowbar;cricket_bat;tonfa;katana;electric_guitar;knife;golfclub;shovel;pitchfork"
 		"poster"
 		{
 			"posterImage"		"LoadingScreen_DarkCarnival"
@@ -3480,7 +3496,7 @@
 		"Image"		"maps/c3"
 		"OuttroImage"		"vgui/outroTitle_SwampFever"
 		"x360ctx"		"5"
-		"meleeweapons"		"fireaxe;frying_pan;machete;baseball_bat;crowbar;cricket_bat;tonfa;katana;electric_guitar;knife;golfclub;shovel;pitchfork"
+		"meleeweapons"		"machete;fireaxe;frying_pan;cricket_bat;shovel;baseball_bat;knife;pitchfork"
 		"poster"
 		{
 			"posterImage"		"LoadingScreen_SwampFever"
@@ -32471,6 +32487,4176 @@
 		"addon"		"0"
 		"CfgFile"		"missions/credits.txt"
 		"CfgTag"		"credits_1"
+		"workshopid"		"0x0000000000000000"
+		"dlcmask"		"0x0000000000000000"
+		"dlcrequired"		"0"
+	}
+	"Diescraper362"
+	{
+		"Name"		"Diescraper362"
+		"Version"		"1"
+		"Author"		"Rectus"
+		"Website"		"www.gamemaps.com"
+		"DisplayTitle"		"Diescraper Redux 3.62"
+		"Description"		"Fight your way through a skyscraper."
+		"OuttroImage"		"vgui/outrotitle_Diescraper_36"
+		"meleeweapons"		"tonfa;frying_pan;electric_guitar;baseball_bat;knife;fireaxe;katana;crowbar;golfclub;flamethrower;barnacle;m72law;syringe_gun;custom_ammo_pack;bow;custom_shotgun"
+		"allow_cola"		"0"
+		"survivor_set"		"2"
+		"poster"
+		{
+			"posterImage"		"LoadingScreen_Diescraper_36"
+			"posterImage_widescreen"		"LoadingScreen_Diescraper_wide_36"
+			"fullscreen"		"1"
+			"posterTitle"		"Diescraper Redux"
+			"posterTitle_y"		"320"
+			"l4d2_names"		"1"
+			"gambler_player_name_x"		"9999"
+			"gambler_player_name_y"		"9999"
+			"producer_player_name_x"		"9999"
+			"producer_player_name_y"		"9999"
+			"coach_player_name_x"		"9999"
+			"coach_player_name_y"		"9999"
+			"mechanic_player_name_x"		"9999"
+			"mechanic_player_name_y"		"9999"
+			"character_order"		"gambler;producer;coach;mechanic"
+		}
+		"modes"
+		{
+			"coop"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"survival"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"holdout"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"1"
+				}
+				"chapters"		"1"
+			}
+			"gdef"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+				}
+			}
+			"realism"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation1"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation2"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation3"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation4"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation5"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation7"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation8"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation9"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation10"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation14"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation15"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"teammutation15"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation16"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation17"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation20"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"community1"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"community2"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"community4"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"community5"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"l4d1coop"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"l4d1survival"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"rocketDude"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"tankrun"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"gunbrain"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+		}
+		"builtin"		"0"
+		"addon"		"1"
+		"CfgFile"		"missions/l4d2_diescraper_362.txt"
+		"CfgTag"		"Diescraper362_1"
+		"workshopid"		"0x0000000000000000"
+		"dlcmask"		"0x0000000000000000"
+		"dlcrequired"		"0"
+	}
+	"Diescraper362VS"
+	{
+		"Name"		"Diescraper362VS"
+		"Version"		"1"
+		"Author"		"Rectus"
+		"Website"		"www.gamemaps.com"
+		"DisplayTitle"		"Diescraper Redux 3.62"
+		"Description"		"Fight your way through a skyscraper."
+		"OuttroImage"		"vgui/outrotitle_Diescraper_36"
+		"meleeweapons"		"tonfa;frying_pan;electric_guitar;baseball_bat;knife;fireaxe;katana;crowbar;golfclub"
+		"allow_cola"		"0"
+		"survivor_set"		"2"
+		"poster"
+		{
+			"posterImage"		"LoadingScreen_Diescraper_36"
+			"posterImage_widescreen"		"LoadingScreen_Diescraper_wide_36"
+			"fullscreen"		"1"
+			"posterTitle"		"Diescraper Redux"
+			"posterTitle_y"		"320"
+			"l4d2_names"		"1"
+			"gambler_player_name_x"		"9999"
+			"gambler_player_name_y"		"9999"
+			"producer_player_name_x"		"9999"
+			"producer_player_name_y"		"9999"
+			"coach_player_name_x"		"9999"
+			"coach_player_name_y"		"9999"
+			"mechanic_player_name_x"		"9999"
+			"mechanic_player_name_y"		"9999"
+			"character_order"		"gambler;producer;coach;mechanic"
+		}
+		"modes"
+		{
+			"versus"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"scavenge"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"teamversus"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"teamscavenge"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation11"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"teammutation11"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation12"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"teammutation12"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation13"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"teammutation13"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation18"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"teammutation18"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"mutation19"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"teammutation19"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"community3"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"teamcommunity3"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"community6"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"teamcommunity6"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"l4d1vs"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+			"teaml4d1vs"
+			{
+				"1"
+				{
+					"Map"		"l4d2_diescraper1_apartment_361"
+					"DisplayName"		"Apartment complex"
+					"Image"		"maps/l4d2_diescraper1_apartment_36"
+					"VersusCompletionScore"		"500"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.600000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.500000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"l4d2_diescraper2_streets_361"
+					"DisplayName"		"Downtown military outpost"
+					"Image"		"maps/l4d2_diescraper2_streets_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.550000"
+						"tank_chance"		"0.850000"
+						"witch_chance"		"0.750000"
+					}
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"l4d2_diescraper3_mid_361"
+					"DisplayName"		"The Skymall"
+					"Image"		"maps/l4d2_diescraper3_mid_36"
+					"VersusCompletionScore"		"700"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.150000"
+						"spawn_pos_max"		"0.450000"
+						"tank_chance"		"0.750000"
+						"witch_chance"		"0.850000"
+					}
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"l4d2_diescraper4_top_361"
+					"DisplayName"		"The top suites"
+					"Image"		"maps/l4d2_diescraper4_top_36"
+					"VersusCompletionScore"		"800"
+					"versus_boss_spawning"
+					{
+						"spawn_pos_min"		"0.100000"
+						"spawn_pos_max"		"0.990000"
+						"tank_chance"		"0.000000"
+						"witch_chance"		"0.200000"
+					}
+					"chapter"		"4"
+				}
+				"chapters"		"4"
+			}
+		}
+		"builtin"		"0"
+		"addon"		"1"
+		"CfgFile"		"missions/l4d2_diescraper_362_vs.txt"
+		"CfgTag"		"Diescraper362VS_1"
+		"workshopid"		"0x0000000000000000"
+		"dlcmask"		"0x0000000000000000"
+		"dlcrequired"		"0"
+	}
+	"Labirinferno"
+	{
+		"Name"		"Labirinferno"
+		"Version"		"1"
+		"Author"		"Kvothe"
+		"Website"		"www.gamemaps.com"
+		"DisplayTitle"		"Labirinferno"
+		"Description"		"None of you will survive..."
+		"OuttroImage"		"vgui\outrotitle_labirinferno"
+		"poster"
+		{
+			"posterImage"		"loadingscreen_labirinferno"
+		}
+		"modes"
+		{
+			"coop"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"realism"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation1"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation2"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation3"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation4"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation5"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation7"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation8"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation9"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation10"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation14"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation16"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation17"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation20"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"community1"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"community2"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"community5"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"l4d1coop"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"rocketDude"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"tankrun"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"gunbrain"
+			{
+				"1"
+				{
+					"Map"		"Labirinferno_parte1"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"Labirinferno_parte2"
+					"DisplayName"		"Labirinferno"
+					"Image"		"maps/l4d_labirinferno"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+		}
+		"builtin"		"0"
+		"addon"		"1"
+		"CfgFile"		"missions/labirinferno.txt"
+		"CfgTag"		"Labirinferno_1"
+		"workshopid"		"0x0000000000000000"
+		"dlcmask"		"0x0000000000000000"
+		"dlcrequired"		"0"
+	}
+	"WelcometoHell"
+	{
+		"Name"		"WelcometoHell"
+		"Version"		"7"
+		"Author"		"Garfield!!"
+		"Website"		"www.gamemaps.com"
+		"DisplayTitle"		"Welcome to Hell"
+		"Description"		"Population : 7"
+		"OuttroImage"		"VGUI\OutroTitle_welcometohell"
+		"meleeweapons"		"tonfa;frying_pan;machete;electric_guitar;baseball_bat;knife;crowbar;fireaxe;golfclub"
+		"poster"
+		{
+			"posterImage"		"LoadingScreen"
+			"posterImage_widescreen"		"LoadingScreen"
+			"fullscreen"		"1"
+			"character_order"		"mechanic;coach;producer;gambler"
+		}
+		"modes"
+		{
+			"coop"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"versus"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"survival"
+			{
+				"1"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall Survival"
+					"Image"		"maps/wth_2"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge Survival"
+					"Image"		"maps/wth_3"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"scavenge"
+			{
+				"1"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall Scavenge"
+					"Image"		"maps/wth_2"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge Scavenge"
+					"Image"		"maps/wth_3"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"realism"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"teamversus"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"teamscavenge"
+			{
+				"1"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall Scavenge"
+					"Image"		"maps/wth_2"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge Scavenge"
+					"Image"		"maps/wth_3"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation1"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation2"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation3"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation4"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation5"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation7"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation8"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation9"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation10"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation11"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"teammutation11"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation12"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"teammutation12"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation13"
+			{
+				"1"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall Scavenge"
+					"Image"		"maps/wth_2"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge Scavenge"
+					"Image"		"maps/wth_3"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"teammutation13"
+			{
+				"1"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall Scavenge"
+					"Image"		"maps/wth_2"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge Scavenge"
+					"Image"		"maps/wth_3"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation14"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation15"
+			{
+				"1"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall Survival"
+					"Image"		"maps/wth_2"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge Survival"
+					"Image"		"maps/wth_3"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"teammutation15"
+			{
+				"1"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall Survival"
+					"Image"		"maps/wth_2"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge Survival"
+					"Image"		"maps/wth_3"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"mutation16"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation17"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation18"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"teammutation18"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation19"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"teammutation19"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"mutation20"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"community1"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"community2"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"community3"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"teamcommunity3"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"community4"
+			{
+				"1"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall Survival"
+					"Image"		"maps/wth_2"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge Survival"
+					"Image"		"maps/wth_3"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"community5"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"community6"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"teamcommunity6"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"l4d1coop"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"l4d1survival"
+			{
+				"1"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall Survival"
+					"Image"		"maps/wth_2"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge Survival"
+					"Image"		"maps/wth_3"
+					"chapter"		"2"
+				}
+				"chapters"		"2"
+			}
+			"l4d1vs"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"teaml4d1vs"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"VersusCompletionScore"		"500"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"VersusCompletionScore"		"600"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"VersusCompletionScore"		"700"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"VersusCompletionScore"		"800"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"VersusCompletionScore"		"800"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"rocketDude"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"tankrun"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+			"gunbrain"
+			{
+				"1"
+				{
+					"Map"		"wth_1"
+					"DisplayName"		"The HotZone"
+					"Image"		"maps/wth_1"
+					"chapter"		"1"
+				}
+				"2"
+				{
+					"Map"		"WTH_2"
+					"DisplayName"		"The Wall"
+					"Image"		"maps/wth_2"
+					"chapter"		"2"
+				}
+				"3"
+				{
+					"Map"		"WTH_3"
+					"DisplayName"		"The Bridge"
+					"Image"		"maps/wth_3"
+					"chapter"		"3"
+				}
+				"4"
+				{
+					"Map"		"WTH_4"
+					"DisplayName"		"The Alleys"
+					"Image"		"maps/wth_4"
+					"chapter"		"4"
+				}
+				"5"
+				{
+					"Map"		"WTH_5"
+					"DisplayName"		"Trainstation Finale"
+					"Image"		"maps/wth_5"
+					"chapter"		"5"
+				}
+				"chapters"		"5"
+			}
+		}
+		"builtin"		"0"
+		"addon"		"1"
+		"CfgFile"		"missions/wthbeta.txt"
+		"CfgTag"		"WelcometoHell_7"
 		"workshopid"		"0x0000000000000000"
 		"dlcmask"		"0x0000000000000000"
 		"dlcrequired"		"0"

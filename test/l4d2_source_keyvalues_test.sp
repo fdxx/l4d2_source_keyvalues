@@ -261,36 +261,43 @@ SourceKeyValues GetGameModeInfo(const char[] sModeName)
 
 void Init()
 {
-	GameData hGameData = new GameData("l4d2_source_keyvalues_test");
-	if (hGameData == null)
-		SetFailState("Failed to load \"l4d2_source_keyvalues_test.txt\" file");
-	
-	g_pMatchExtL4D = hGameData.GetAddress("g_pMatchExtL4D");
-	if (g_pMatchExtL4D == Address_Null)
-		SetFailState("Failed to get address: \"g_pMatchExtL4D\"");
+	char buffer[256];
 
+	strcopy(buffer, sizeof(buffer), "l4d2_source_keyvalues_test");
+	GameData hGameData = new GameData(buffer);
+	if (hGameData == null)
+		SetFailState("Failed to load \"%s.txt\" gamedata.", buffer);
+
+	strcopy(buffer, sizeof(buffer), "g_pMatchExtL4D");
+	g_pMatchExtL4D = hGameData.GetAddress(buffer);
+	if (g_pMatchExtL4D == Address_Null)
+		SetFailState("Failed to GetAddress: %s", buffer);
+
+	strcopy(buffer, sizeof(buffer), "MatchExtL4D::GetAllMissions");
 	StartPrepSDKCall(SDKCall_Raw);
-	PrepSDKCall_SetVirtual(0);
+	PrepSDKCall_SetFromConf(hGameData, SDKConf_Virtual, buffer);
 	PrepSDKCall_SetReturnInfo(SDKType_PlainOldData, SDKPass_Plain);
 	g_hSDKGetAllMissions = EndPrepSDKCall();
 	if (g_hSDKGetAllMissions == null)
-		SetFailState("Failed to create SDKCall: IMatchExtL4D::GetAllMissions");
+		SetFailState("Failed to create SDKCall: %s", buffer);
 
+	strcopy(buffer, sizeof(buffer), "MatchExtL4D::GetAllModes");
 	StartPrepSDKCall(SDKCall_Raw);
-	PrepSDKCall_SetVirtual(1);
+	PrepSDKCall_SetFromConf(hGameData, SDKConf_Virtual, buffer);
 	PrepSDKCall_SetReturnInfo(SDKType_PlainOldData, SDKPass_Plain);
 	g_hSDKGetAllModes = EndPrepSDKCall();
 	if (g_hSDKGetAllModes == null)
-		SetFailState("Failed to create SDKCall: IMatchExtL4D::GetAllModes");
+		SetFailState("Failed to create SDKCall: %s", buffer);
 
+	strcopy(buffer, sizeof(buffer), "MatchExtL4D::GetGameModeInfo");
 	StartPrepSDKCall(SDKCall_Raw);
-	PrepSDKCall_SetVirtual(4);
+	PrepSDKCall_SetFromConf(hGameData, SDKConf_Virtual, buffer);
 	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
 	PrepSDKCall_SetReturnInfo(SDKType_PlainOldData, SDKPass_Plain);
 	g_hSDKGetGameModeInfo = EndPrepSDKCall();
 	if (g_hSDKGetGameModeInfo == null)
-		SetFailState("Failed to create SDKCall: IMatchExtL4D::GetGameModeInfo");
-
+		SetFailState("Failed to create SDKCall: %s", buffer);
+	
 	delete hGameData;
 }
 

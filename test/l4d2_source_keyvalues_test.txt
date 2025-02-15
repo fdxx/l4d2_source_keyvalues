@@ -2,6 +2,27 @@
 {
 	"left4dead2"
 	{
+		"Offsets"
+		{
+			"MatchExtL4D::GetAllMissions"
+			{
+				"linux"		"0"
+				"windows"	"0"
+			}
+
+			"MatchExtL4D::GetAllModes"
+			{
+				"linux"		"1"
+				"windows"	"1"
+			}
+
+			"MatchExtL4D::GetGameModeInfo"
+			{
+				"linux"		"4"
+				"windows"	"4"
+			}
+		}
+
 		"Addresses"
 		{
 			"g_pMatchExtL4D"
