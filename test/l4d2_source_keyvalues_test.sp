@@ -261,9 +261,9 @@ SourceKeyValues GetGameModeInfo(const char[] sModeName)
 
 void Init()
 {
-	GameData hGameData = new GameData("test");
+	GameData hGameData = new GameData("l4d2_source_keyvalues_test");
 	if (hGameData == null)
-		SetFailState("Failed to load \"test.txt\" file");
+		SetFailState("Failed to load \"l4d2_source_keyvalues_test.txt\" file");
 	
 	g_pMatchExtL4D = hGameData.GetAddress("g_pMatchExtL4D");
 	if (g_pMatchExtL4D == Address_Null)
