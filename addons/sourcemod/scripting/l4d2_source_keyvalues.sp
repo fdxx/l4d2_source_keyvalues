@@ -1,7 +1,7 @@
 #pragma semicolon 1
 #pragma newdecls required
 
-#define VERSION "0.4"
+#define VERSION "0.5"
 
 #include <sourcemod>
 #include <sdktools>
@@ -484,14 +484,14 @@ void Init()
 		SetFailState("Failed to create SDKCall: \"%s\"", sBuffer);
 
 	// bool KeyValues::LoadFromFile( IBaseFileSystem *filesystem, const char *resourceName, const char *pathID);
-	
+	// Compatible with 1.12 and previous versions.
 	strcopy(sBuffer, sizeof(sBuffer), "KeyValues::LoadFromFile");
 	StartPrepSDKCall(SDKCall_Raw);
 	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
 		SetFailState("Failed to find signature: \"%s\"", sBuffer);
 	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
 	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
-	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain); // Why doesn't NULL_STRING work?
+	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
 	PrepSDKCall_SetReturnInfo(SDKType_Bool, SDKPass_Plain);
 	g_hSDKLoadFromFile = EndPrepSDKCall();
 	if (g_hSDKLoadFromFile == null)
@@ -540,7 +540,7 @@ void Init()
 	StartPrepSDKCall(SDKCall_Raw);
 	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
 		SetFailState("Failed to find signature: \"%s\"", sBuffer);
-	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer, VDECODE_FLAG_ALLOWNULL);
 	PrepSDKCall_SetReturnInfo(SDKType_PlainOldData, SDKPass_Plain);
 	g_hSDKGetDataType = EndPrepSDKCall();
 	if (g_hSDKGetDataType == null)
@@ -550,7 +550,7 @@ void Init()
 	StartPrepSDKCall(SDKCall_Raw);
 	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
 		SetFailState("Failed to find signature: \"%s\"", sBuffer);
-	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer, VDECODE_FLAG_ALLOWNULL);
 	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
 	PrepSDKCall_SetReturnInfo(SDKType_String, SDKPass_Pointer);
 	g_hSDKGetString = EndPrepSDKCall();
@@ -561,7 +561,7 @@ void Init()
 	StartPrepSDKCall(SDKCall_Raw);
 	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
 		SetFailState("Failed to find signature: \"%s\"", sBuffer);
-	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer, VDECODE_FLAG_ALLOWNULL);
 	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
 	g_hSDKSetString = EndPrepSDKCall();
 	if (g_hSDKSetString == null)
@@ -580,7 +580,7 @@ void Init()
 	StartPrepSDKCall(SDKCall_Raw);
 	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
 		SetFailState("Failed to find signature: \"%s\"", sBuffer);
-	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer, VDECODE_FLAG_ALLOWNULL);
 	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
 	PrepSDKCall_SetReturnInfo(SDKType_PlainOldData, SDKPass_Plain);
 	g_hSDKGetInt = EndPrepSDKCall();
@@ -591,7 +591,7 @@ void Init()
 	StartPrepSDKCall(SDKCall_Raw);
 	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
 		SetFailState("Failed to find signature: \"%s\"", sBuffer);
-	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer, VDECODE_FLAG_ALLOWNULL);
 	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
 	g_hSDKSetInt = EndPrepSDKCall();
 	if (g_hSDKSetInt == null)
@@ -601,7 +601,7 @@ void Init()
 	StartPrepSDKCall(SDKCall_Raw);
 	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
 		SetFailState("Failed to find signature: \"%s\"", sBuffer);
-	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer, VDECODE_FLAG_ALLOWNULL);
 	PrepSDKCall_AddParameter(SDKType_Float, SDKPass_Plain);
 	PrepSDKCall_SetReturnInfo(SDKType_Float, SDKPass_Plain);
 	g_hSDKGetFloat = EndPrepSDKCall();
@@ -612,7 +612,7 @@ void Init()
 	StartPrepSDKCall(SDKCall_Raw);
 	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
 		SetFailState("Failed to find signature: \"%s\"", sBuffer);
-	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer, VDECODE_FLAG_ALLOWNULL);
 	PrepSDKCall_AddParameter(SDKType_Float, SDKPass_Plain);
 	g_hSDKSetFloat = EndPrepSDKCall();
 	if (g_hSDKSetFloat == null)
@@ -622,7 +622,7 @@ void Init()
 	StartPrepSDKCall(SDKCall_Raw);
 	if (!PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, sBuffer))
 		SetFailState("Failed to find signature: \"%s\"", sBuffer);
-	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer);
+	PrepSDKCall_AddParameter(SDKType_String, SDKPass_Pointer, VDECODE_FLAG_ALLOWNULL);
 	PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Pointer);
 	PrepSDKCall_SetReturnInfo(SDKType_PlainOldData, SDKPass_Plain);
 	g_hSDKGetPtr = EndPrepSDKCall();

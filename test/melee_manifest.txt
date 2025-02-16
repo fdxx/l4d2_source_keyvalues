@@ -1,0 +1,16 @@
+"melee_manifest"
+{
+	"file"		"scripts/melee/fireaxe.txt"
+	"file"		"scripts/melee/frying_pan.txt"
+	"file"		"scripts/melee/machete.txt"
+	"file"		"scripts/melee/baseball_bat.txt"
+	"file"		"scripts/melee/crowbar.txt"
+	"file"		"scripts/melee/cricket_bat.txt"
+	"file"		"scripts/melee/tonfa.txt"
+	"file"		"scripts/melee/katana.txt"
+	"file"		"scripts/melee/electric_guitar.txt"
+	"file"		"scripts/melee/knife.txt"
+	"file"		"scripts/melee/golfclub.txt"
+	"file"		"scripts/melee/shovel.txt"
+	"file"		"scripts/melee/pitchfork.txt"
+}
